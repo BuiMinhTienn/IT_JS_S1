@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IT-JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>IT-Job Search System</h1>
+    </div>
+    <div class="content">
+      <form action="/tim-kiem" method="post">
+        <div class="form-group">
+          <input type="text" class="form-control" id="keyword" name="keyword" placeholder="Nhập từ khóa">
+        </div>
+        <div class="form-group">
+          <select class="form-control" id="location" name="location">
+            <option value="">Địa điểm</option>
+            <option value="Hà Nội">Hà Nội</option>
+            <option value="TP.HCM">TP.HCM</option>
+            <option value="Thái Bình">Thái Bình</option>
+            <option value="Nghệ An">Nghệ An</option>
+            <option value="Hòa Bình">Hòa Bình</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <select class="form-control" id="job-type" name="job-type">
+            <option value="">Vị trí ứng tuyển</option>
+            <option value="Lập trình viên">Lập trình viên</option>
+            <option value="Kỹ sư phần mềm">Kỹ sư phần mềm</option>
+            <option value="Quản trị viên hệ thống">Quản trị viên hệ thống</option>
+            <option value="Thiết kế web">Thiết kế web</option>
+            <option value="Kỹ sư cầu nối">Kỹ sư cầu nối</option>
+            <option value="Lập trình nhúng">Lập trình nhúng</option>
+            <option value="An toàn thông tin">An toàn thông tin</option>
+          </select>
+        </div>
+        <div class="form-group">
+            <select class="form-control" id="level">
+                <option value="Cấp bậc">Cấp bậc</option>
+                <option value="Intern">Intern</option>
+                <option value="Fresher">Fresher</option>
+                <option value="Junior">Junior</option>
+                <option value="Middle">Middle</option>
+                <option value="Senior">Senior</option>
+                <option value="Trưởng nhóm">Trưởng nhóm</option>
+                <option value="Trưởng phòng">Trưởng phòng</option>
+                <option value="All Levels">All Levels</option>
+            </select>
+        </div>
+        <div class="g-tk">
+            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

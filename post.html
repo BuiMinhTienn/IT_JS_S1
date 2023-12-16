@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>IT-JS</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Đăng tin tuyển dụng</h1>
+            <form action="/post" method="post">
+                <div class="form-group">
+                    <label for="ten-cong-ty">Tên công ty</label>
+                    <input type="text" class="form-control" id="ten-cong-ty" name="ten-cong-ty" placeholder="ex: UnitJsc" required>
+                </div>
+                <div class="form-group">
+                    <label for="ho-va-ten">Họ và tên</label>
+                    <input type="text" class="form-control" id="ho-va-ten" name="ho-va-ten" placeholder="ex: Bùi Minh Tiến" required>
+                </div>
+                <div class="form-group">
+                    <label for="vi-tri-td">Vị trí tuyển dụng</label>
+                    <input type="text" class="form-control" id="vi-tri-td" name="vi-tri-td" placeholder="ex: Fresher" required>
+                </div>
+                <div class="form-group">
+                    <label for="em-congty"> Email công ty</label>
+                    <input type="mail" class="form-control" id="em-congty" name="em-congty" placeholder="ex: unit@jscc.vn" required>
+                </div>
+                <div class="form-group">
+                    <label for="sdt">Hotline liên hệ</label>
+                    <input type="number" class="form-control" id="sdt" name="sdt" placeholder="ex: 0978453621" required>
+                </div>
+                <div>
+                    <label for="mo-ta-cv">Vui lòng mô tả công việc</label>
+                    <input type="text" class="form-control" id="mo-ta-cv" name="mo-ta-cv" placeholder="Mô tả yêu cầu công việc...">
+                </div>
+                <div class="g-tk">
+                    <button type="submit" class="btn btn-primart">Gửi</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
