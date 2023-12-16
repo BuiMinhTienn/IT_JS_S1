@@ -35,10 +35,15 @@
     justify-content: center;
     margin: 10px 107px 0 107px;
   }
-  .qmk{
-    display: inline-block;
- }
+
  .dk{
+  color: red;
   float: right;
   display: inline-block;
+  padding-top: 8px;
+}
+.da-co-tk{
+  color: red;
+  display: inline-block;
+  padding-top: 8px;
 }
