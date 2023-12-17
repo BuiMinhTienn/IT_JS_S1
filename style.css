@@ -1,49 +1,61 @@
+body{
+  background-color: aliceblue;
+}
 .container{
-    width: 300px;
-    margin: 0 auto;
+  width: 300px;
+  margin: 0 auto;
 }
-  h1{
-    text-align: center;
-    color: blue;
-  }
-  h2{
-    font-size: 25px;
-    text-align: center;
-    color: black;
+h1{
+  text-align: center;
+  color: blue;
 }
-  .form-group{
-    margin-bottom: 20px;
-  }
-  .form-control{
-    width: 100%;
-    padding: 8px;
-    border-radius: 8px;
-  }
-  .btn{
-    width: 108%;
-    height: 20px;
-    background-color: blue;
-    color: white;
-    border-radius: 10px;
-    cursor: pointer;
-  }
+h2{
+  font-size: 25px;
+  text-align: center;
+  color: black;
+}
 
-  .g-tk{
-    width: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 107px 0 107px;
-  }
-
- .dk{
-  color: red;
-  float: right;
-  display: inline-block;
-  padding-top: 8px;
+.form-group{
+  margin-bottom: 20px;
 }
+
+.form-control{
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.btn{
+  width: 108%;
+  height: 20px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.g-tk{
+  width: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 107px 0 107px;
+}
+
+.dk{
+color: red;
+float: right;
+display: inline-block;
+padding-top: 8px;
+}
+
 .da-co-tk{
+color: red;
+display: inline-block;
+padding-top: 8px;
+}
+
+.chk{
+  margin-bottom: 8px;
   color: red;
-  display: inline-block;
-  padding-top: 8px;
 }
